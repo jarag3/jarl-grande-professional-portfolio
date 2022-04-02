@@ -1,0 +1,46 @@
+
+/* Universal Selector Start */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Start Header Styling  */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f8f0e3;
+    color: darkolivegreen;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+ 
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    display: flex;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+/* End Header Styling */
