@@ -9,11 +9,14 @@
 /* Start Header Styling  */
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    position: sticky;
     padding: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #f8f0e3;
     color: darkolivegreen;
+    top: 0;
 }
 
 header h1 {
@@ -32,6 +35,7 @@ header nav {
 header nav ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 header nav ul li {
