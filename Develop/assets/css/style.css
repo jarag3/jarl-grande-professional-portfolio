@@ -48,3 +48,19 @@ a {
     color: darkolivegreen;
 }
 /* End Header Styling */
+
+/* Start Main Content Styling */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+    background-image: url("../images/leafybackround.jpg");
+    background-size: cover;
+}
+
+main h2 {
+    padding: 12px 0 12px 0;
+    text-decoration: solid;
+}
+
