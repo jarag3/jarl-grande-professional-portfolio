@@ -99,8 +99,9 @@ main h2 {
     border: 3px solid #000;
 }
 
-
-
+.project-item1 h3 {
+    font-size: 20px;
+}
 /* Start Contact Styling */
 .contact {
     display: flex;
