@@ -164,7 +164,7 @@ footer {
 /* Start Media Queries */
 
 /* Mobile Phones and Smaller */
-@media screen (max-width: 575px) {
+@media screen and (max-width: 575px) {
     * {
         font-size: 15px
     }
@@ -197,3 +197,4 @@ footer {
         width: 65%;
         height: 76%
     }
+}
