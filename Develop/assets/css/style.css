@@ -1,5 +1,6 @@
 
 /* Universal Selector Start */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -159,3 +160,40 @@ footer {
     text-align: center;
 }
 /* End Footer */
+
+/* Start Media Queries */
+
+/* Mobile Phones and Smaller */
+@media screen (max-width: 575px) {
+    * {
+        font-size: 15px
+    }
+    
+    header {
+        padding: 8px;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content {
+        padding: 5px;
+    }
+
+    .about-me img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .project-item1 img {
+        width: 75%;
+        height: 85%;
+    }
+
+    .project-item2 img {
+        width: 65%;
+        height: 75%
+    }
